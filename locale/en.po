@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+msgid "Default Levels"
+msgstr "Default Levels"
+
+msgid "Custom Levels"
+msgstr "Custom Levels"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Chinese"
+msgstr "Chinese"
+
+msgid "English"
+msgstr "English"
+
+msgid "Levels"
+msgstr "Levels"
+
+msgid "Enter"
+msgstr "Enter"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid ""
+"File format error\n"
+"Please Check again!"
+msgstr ""
+"File format error\n"
+"Please Check again!"
+
+msgid "Current Instruction"
+msgstr "Current Instruction"
+
+#| msgid "Level Description"
+msgid " Level Description"
+msgstr " Level Description"
+
+#| msgid "Instructions Allowed"
+msgid " Instructions Allowed"
+msgstr " Instructions Allowed"
+
+msgid "Restart"
+msgstr "Restart"
+
+#| msgid "Confrim"
+msgid "Confirm"
+msgstr "Confirm"
+
+msgid "Execute one step"
+msgstr "Execute one step"
+
+msgid "Execute All"
+msgstr "Execute All"
+
+msgid " Error on instruction {0}"
+msgstr " Error on instruction {0}"
+
+msgid "Level Fail"
+msgstr "Level Fail"
+
+msgid "Think again!"
+msgstr "Think again!"
+
+msgid "Good Job"
+msgstr "Good Job"
+
+msgid ""
+"Line count of this level: {0}\n"
+"You have finished all levels!\n"
+msgstr ""
+"Line count of this level: {0}\n"
+"You have finished all levels!\n"
+
+msgid "Back to menu"
+msgstr "Back to menu"
+
+msgid "Level Success"
+msgstr "Level Success"
+
+msgid ""
+"Let's go ahead!\n"
+"Line count of this level: {0}"
+msgstr ""
+"Let's go ahead!\n"
+"Line count of this level: {0}"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "Level {0}: {1}"
+msgstr "Level {0}: {1}"
+
+msgid "Level {0}"
+msgstr "Level {0}"
+
+msgid "Exit"
+msgstr "Exit"
+
+msgid "Select Level File"
+msgstr "Select Level File"
+
+msgid "line {0}: {1}"
+msgstr "line {0}: {1}"

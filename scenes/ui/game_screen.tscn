@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://dvo6tcok7ir0v"]
+
+[ext_resource type="PackedScene" uid="uid://bphrnoo80jm1k" path="res://scenes/ui/instruction_panel.tscn" id="1_1ley1"]
+[ext_resource type="Script" path="res://scenes/ui/game_screen.gd" id="1_37baf"]
+[ext_resource type="PackedScene" uid="uid://s368sinxycon" path="res://scenes/ui/current_instruction_panel.tscn" id="2_0shd0"]
+[ext_resource type="PackedScene" uid="uid://c7e2gm1ni8m6g" path="res://scenes/ui/game_over_window.tscn" id="4_4b5px"]
+
+[node name="GameScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_37baf")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 864.0
+offset_bottom = 486.0
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 220
+
+[node name="InstructionPanel" parent="MarginContainer" instance=ExtResource("1_1ley1")]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+
+[node name="CurrentInstructionPanel" parent="MarginContainer" instance=ExtResource("2_0shd0")]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+
+[node name="GameOverWindow" parent="." instance=ExtResource("4_4b5px")]
+visible = false
+layout_mode = 1
+offset_left = 282.0
+offset_top = 155.0
+offset_right = -249.0
+offset_bottom = -167.0

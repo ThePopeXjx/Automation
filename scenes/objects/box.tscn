@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://dnfjmhpk0u6e4"]
+
+[ext_resource type="Texture2D" uid="uid://c88yli8dvma8u" path="res://assets/box.png" id="1_7t0m7"]
+[ext_resource type="Script" path="res://scenes/objects/box.gd" id="2_axm6c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7w7pv"]
+atlas = ExtResource("1_7t0m7")
+region = Rect2(172, 129, 42, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nsyti"]
+atlas = SubResource("AtlasTexture_7w7pv")
+
+[node name="Box" type="Sprite2D"]
+texture = SubResource("AtlasTexture_nsyti")
+script = ExtResource("2_axm6c")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -41.0
+offset_top = -32.5
+offset_right = -1.0
+offset_bottom = -9.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.821519, 0, 0.0975027, 1)
+theme_override_font_sizes/font_size = 30
+text = "1"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true

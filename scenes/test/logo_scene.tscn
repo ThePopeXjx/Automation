@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://w0ioml81t38b"]
+
+[ext_resource type="FontFile" uid="uid://c5rf6prrbtmlf" path="res://assets/LazyFox Pixel Font 2/LazyFox Pixel Font 2.ttf" id="1_1l0ou"]
+[ext_resource type="Texture2D" uid="uid://bhey2h06rjlpg" path="res://icon.svg" id="2_4mgar"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5k2ra"]
+atlas = ExtResource("2_4mgar")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1pmyj"]
+atlas = SubResource("AtlasTexture_5k2ra")
+
+[node name="LogoScene" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 864.0
+offset_bottom = 486.0
+color = Color(0, 0, 0, 1)
+
+[node name="AuthorLabel" type="Label" parent="."]
+offset_left = 252.0
+offset_top = 203.0
+offset_right = 633.0
+offset_bottom = 252.0
+theme_override_fonts/font = ExtResource("1_1l0ou")
+theme_override_font_sizes/font_size = 40
+text = "Made By ThePope"
+
+[node name="GodotLabel" type="Label" parent="."]
+offset_left = 319.0
+offset_top = 292.0
+offset_right = 481.0
+offset_bottom = 314.0
+theme_override_fonts/font = ExtResource("1_1l0ou")
+theme_override_font_sizes/font_size = 16
+text = "with Godot Engine"
+
+[node name="GodotLogo" type="Sprite2D" parent="."]
+position = Vector2(516, 300)
+scale = Vector2(0.398438, 0.398438)
+texture = SubResource("AtlasTexture_1pmyj")

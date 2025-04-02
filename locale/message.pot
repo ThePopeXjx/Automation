@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+
+msgid "Default Levels"
+msgstr ""
+
+msgid "Custom Levels"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Chinese"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "Levels"
+msgstr ""
+
+msgid "Enter"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "File format error\nPlease Check again!"
+msgstr ""
+
+msgid "Current Instruction"
+msgstr ""
+
+msgid " Level Description"
+msgstr ""
+
+msgid " Instructions Allowed"
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Execute one step"
+msgstr ""
+
+msgid "Execute All"
+msgstr ""
+
+msgid " Error on instruction {0}"
+msgstr ""
+
+msgid "Level Fail"
+msgstr ""
+
+msgid "Think again!"
+msgstr ""
+
+msgid "Good Job"
+msgstr ""
+
+msgid "Line count of this level: {0}\nYou have finished all levels!\n"
+msgstr ""
+
+msgid "Back to menu"
+msgstr ""
+
+msgid "Level Success"
+msgstr ""
+
+msgid "Let's go ahead!\nLine count of this level: {0}"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "Level {0}: {1}"
+msgstr ""
+
+msgid "Level {0}"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "Select Level File"
+msgstr ""
+
+msgid "line {0}: {1}"
+msgstr ""

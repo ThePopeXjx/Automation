@@ -1,0 +1,12 @@
+{
+    "levels": [
+        {
+            "caption": "In and Out",
+            "input": [1, 2, 3],
+            "instructions_allowed": ["inbox", "outbox"],
+            "expected_output": [1, 2, 3],
+            "available_registers": [],
+            "description": "Put every input box onto the output conveyer."
+        }
+    ]
+}

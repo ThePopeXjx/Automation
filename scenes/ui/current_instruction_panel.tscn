@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=3 uid="uid://s368sinxycon"]
+
+[ext_resource type="Theme" uid="uid://bb6vwl0h1flws" path="res://assets/FlatUI4/kenneyUI-blue.tres" id="1_am2j2"]
+[ext_resource type="Script" path="res://scenes/ui/current_instruction_panel.gd" id="1_o6k1q"]
+[ext_resource type="FontFile" uid="uid://c5rf6prrbtmlf" path="res://assets/LazyFox Pixel Font 2/LazyFox Pixel Font 2.ttf" id="2_gud6o"]
+
+[node name="CurrentInstructionPanel" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_o6k1q")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 2
+offset_left = -121.0
+offset_top = 1.0
+offset_right = 122.0
+offset_bottom = 54.0
+theme = ExtResource("1_am2j2")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 5.0
+offset_right = 236.0
+offset_bottom = 45.0
+
+[node name="PanelContainer" type="PanelContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="CurrentInstructionCaption" type="Label" parent="Panel/VBoxContainer/PanelContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_gud6o")
+theme_override_font_sizes/font_size = 16
+text = "Current Instruction"
+horizontal_alignment = 1
+
+[node name="PanelContainer2" type="PanelContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="CurrentInstructionLabel" type="Label" parent="Panel/VBoxContainer/PanelContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_gud6o")
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1

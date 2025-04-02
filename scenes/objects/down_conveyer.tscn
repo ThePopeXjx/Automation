@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3 uid="uid://cwg25j64nh2a1"]
+
+[ext_resource type="Script" path="res://scenes/objects/down_conveyer.gd" id="1_8gbyg"]
+[ext_resource type="Texture2D" uid="uid://bao2uv5a7qosq" path="res://assets/automation_spritesheet.png" id="1_bbxf4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eexlb"]
+atlas = ExtResource("1_bbxf4")
+region = Rect2(256, 160, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_va4ew"]
+atlas = ExtResource("1_bbxf4")
+region = Rect2(256, 160, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j0781"]
+atlas = ExtResource("1_bbxf4")
+region = Rect2(288, 160, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yo367"]
+atlas = ExtResource("1_bbxf4")
+region = Rect2(0, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0nf2x"]
+atlas = ExtResource("1_bbxf4")
+region = Rect2(32, 192, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oq674"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eexlb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_va4ew")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j0781")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yo367")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0nf2x")
+}],
+"loop": true,
+"name": &"scroll",
+"speed": 30.0
+}]
+
+[node name="DownConveyer" type="Sprite2D"]
+script = ExtResource("1_8gbyg")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_oq674")
+animation = &"scroll"
+autoplay = "default"
